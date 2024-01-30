@@ -6,7 +6,7 @@ import {
 } from "../interfaces/inscription";
 
 //const baseUrl = '/api';
-const baseUrl = process.env.REACT_APP_BASE_URL;
+const baseUrl = 'http://domreality.com.br:3003';
 // const baseUrl = 'http://localhost:3003'
 
 export const top10 = async () => {
