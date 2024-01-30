@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K974BS');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon-unicesumar.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="É o Reality Show de música gospel que vai apresentar a grande voz que o Brasil precisa conhecer! Transmitido 100% online em 4 episódios, vamos dar a chance que a sua voz precisa para iniciar uma carreira na música e se tornar um verdadeiro sucesso." />
+  <meta name="facebook-domain-verification" content="d387ns29h0ofuzhdx3s05m2ndq50ml" />
+  <link rel="stylesheet" href="https://use.typekit.net/gtv0fss.css">
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon-unicesumar.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="%PUBLIC_URL%/index.css" />
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/slick.css" />
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/boxicons.min.css" />
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/slick-theme.css" />
+  <link rel="stylesheet" href="%PUBLIC_URL%/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <title>Dom Reality Show Gospel</title>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K974BS" height="0" width="0"
+      style="display:none;visibility:hidden">
+    </iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <noscript></noscript>
+  <div id="root"></div>
+</body>
+<script type="text/javascript" src="%PUBLIC_URL%/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="%PUBLIC_URL%/js/slick.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('#juradosReality .marketing').slick({
+      infinite: true,
+      slidesToShow: 5,
+      slidesToScroll: 2,
+      dots: true,
+      arrows:false,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 320,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        }
+      ]
+    });
+
+    $('.videos').slick({
+      infinite: true,
+      slidesToShow: 5,
+      slidesToScroll: 2,
+      dots: true,
+      arrows:false,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 320,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        }
+      ]
+    });
+
+    (() => {
+      if (!localStorage.pureJavaScriptCookies) {
+        document.querySelector(".box-cookies").classList.remove('hide');
+      }
+
+      const acceptCookies = () => {
+        document.querySelector(".box-cookies").classList.add('hide');
+        localStorage.setItem("pureJavaScriptCookies", "accept");
+      };
+
+      const btnCookies = document.querySelector(".btn-cookies");
+
+      btnCookies.addEventListener('click', acceptCookies);
+    })();
+
+    $(".btn-recusar").click(function () {
+      $(".box-cookies").addClass("hide");
+    });
+
+    $("#rd-button-kwm6ft8e").click(function () {
+      window.dataLayer.push
+        ({
+          event: "clickEvent",
+          eventCategory: "unicesumar:reality-gospel",
+          eventAction: "botao:click",
+          eventLabel: "envio-formulario"
+        });
+    });
+    $("#btn-inscription").click(function () {
+      //Ao clicar no botão de inscrição no evento:
+      window.dataLayer.push
+        ({
+          'event': "clickEvent",
+          'eventCategory': "unicesumar:reality-gospel",
+          'eventAction': "botao:click",
+          'eventLabel': "inscricao-evento"
+        })
+    })
+
+    $(".btn-votation").click(function () {
+      //Ao clicar no botão de votação no evento:
+      window.dataLayer.push
+        ({
+          'event': "clickEvent",
+          'eventCategory': "unicesumar:reality-gospel",
+          'eventAction': "botao:click",
+          'eventLabel': "votacao-evento"
+        })
+    })
+
+    $(".btn-share").click(function () {
+      //Ao compartilhar o evento:
+      window.dataLayer.push
+        ({
+          'event': "clickEvent",
+          'eventCategory': "unicesumar:reality-gospel",
+          'eventAction': "botao:click",
+          'eventLabel': "compartilhamento"
+        })
+    })
+
+    $(".btn-social").click(function () {
+      //Disparar no click de cada rede social
+      window.dataLayer.push
+        ({
+          'event': "clickEvent",
+          'eventCategory': "unicesumar:reality-gospel",
+          'eventAction': "botao:click",
+          'eventLabel': "rede-social:[qual-rede-clicou]"
+        })
+    })
+
+  });
+</script>
+
+</html>
