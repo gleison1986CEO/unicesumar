@@ -5,7 +5,7 @@ import {
   IVoterRegister,
 } from "../interfaces/inscription";
 
-const baseUrl = 'http://domreality.com.br:3003/api';
+const baseUrl = 'http://domreality.com.br/api';
 
 export const top10 = async () => {
   try {
