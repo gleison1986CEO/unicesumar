@@ -1,0 +1,18 @@
+195 = gabriel leao = https://s3domreality.s3.amazonaws.com/02.png
+899 = felipe ferpa = https://s3domreality.s3.amazonaws.com/03.png
+222 = luana        = https://s3domreality.s3.amazonaws.com/04.png
+263 = thalisonIuri = https://s3domreality.s3.amazonaws.com/05.png
+819 = babi         = https://s3domreality.s3.amazonaws.com/babi.png
+63  = bruno        = https://s3domreality.s3.amazonaws.com/babi.png
+
+select * from person where id  = '63';
+
+UPDATE person SET avatar_url = 'https://s3domreality.s3.amazonaws.com/02.png' WHERE id = '195'; 
+
+UPDATE person SET avatar_url = 'https://s3domreality.s3.amazonaws.com/03.png' WHERE id = '899'; 
+
+UPDATE person SET avatar_url = 'https://s3domreality.s3.amazonaws.com/04.png' WHERE id = '222'; 
+
+UPDATE person SET avatar_url = 'https://s3domreality.s3.amazonaws.com/05.png' WHERE id = '263'; 
+
+UPDATE person SET avatar_url = 'https://s3domreality.s3.amazonaws.com/babi.png' WHERE id = '819'; 

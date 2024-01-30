@@ -180,20 +180,24 @@ const ModalVote: FC<{ candidate: ICandidate, update: Function }> = ({candidate, 
                           onChange={formik.handleChange}
                           value={formik.values.email}
                         />
-                        <ReactInputMask
-                          mask="(99) 9 9999-9999"
-                          onChange={formik.handleChange}
-                          value={formik.values.phone}
+                        <CssTextField
+                           fullWidth
+                           id="phone"
+                           name="phone"
+                           placeholder="(99) 9 9999-9999"
+                           type="text"
+                           onChange={formik.handleChange}
+                           value={formik.values.phone}
                         >
-                          {/* {(inputProps: any) => <CssTextField
+                          {(inputProps: any) => <CssTextField
                             {...inputProps}
                             fullWidth
                             id="phone"
                             name="phone"
                             type="text"
                             placeholder="Telefone:"
-                          />} */}
-                        </ReactInputMask>
+                          />}
+                        </CssTextField>
                         <Box display="flex" gap="15px" width="100%" flexWrap={"wrap"}>
                           <Box flex="1">
                             <CssSelect

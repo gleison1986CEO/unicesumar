@@ -5,7 +5,10 @@ import {
   IVoterRegister,
 } from "../interfaces/inscription";
 
-const baseUrl = 'http://domreality.com.br/api';
+//const baseUrl = '/api';
+const baseUrl = process.env.REACT_APP_BASE_URL;
+// const baseUrl = '/api';
+// const baseUrl = 'http://localhost:3003'
 
 export const top10 = async () => {
   try {
