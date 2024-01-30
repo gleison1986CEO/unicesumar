@@ -9,9 +9,7 @@ import {
 import { Container } from '@mui/material';
 import { Box } from '@mui/system';
 import FAQ from './FAQ';
-import App210222 from './App210222';
 import App from './App';
-import ResendVideo from './ResendVideo';
 
 const LGPD = () => {
   return (
